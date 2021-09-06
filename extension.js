@@ -72,7 +72,7 @@ const ScaleSwitcher = new Lang.Class({
     this.txt.text = "×" + currentFactor;
   },
   _changeScalingFactor: function() {
-    const targetFactor = this._getScalingFactor() == 1 ? 2 : 1;
+    const targetFactor = this._getScalingFactor() == 1 ? 1.25 : 1;
 
     // Get current overrides values
     let currentValues = this._getCurrentValues();
